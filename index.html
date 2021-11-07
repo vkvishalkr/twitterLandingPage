@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <!-- Sidebar Begins -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons"> home </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> tag </span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> notifications_none </span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> mail_outline </span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> bookmark_border </span>
+            <h2>BookMarks</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> list_alt </span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> perm_identity </span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> more_horiz </span>
+            <h2>More</h2>
+        </div>
+
+        <button class="sidebar_tweet">Tweet</button>
+        <div class="logOut">
+            <div class="profilePhoto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq85nM_mqPIwNv98rKduTCxaGlckt6D2raXXXbpqcMlgbE27o7jhg8rHtLmobdpNaqcho&usqp=CAU" alt=""></div>
+            <div class="userName">
+                <p class="p1"><b>Vishal Kumar <i class="fa fa-lock"></i></b></p>
+                <p class="p2">@vishalwishkr</p>
+            </div>
+            <div class="dot"><p>...</p></div>
+        </div>
+    </div>
+    <!-- SideBar Finished -->
+
+    <!-- HomePage Start -->
+
+    <div class="home">
+        <div class="home_header">
+            <h2>Home</h2>
+        </div>
+        <!-- TweetBox begins -->
+        <div class="tweetBox">
+            <form action="">
+                <div class="tweetbox_input">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq85nM_mqPIwNv98rKduTCxaGlckt6D2raXXXbpqcMlgbE27o7jhg8rHtLmobdpNaqcho&usqp=CAU" alt="">
+                    <input type="text" placeholder="What's happening?">
+                </div>
+                <!-- <button class="tweetBox_tweetButton">Tweet</button> -->
+                <div class="addExtra">
+                    <div class="imagesMore">
+                        <span class="material-icons">image</span>
+                        <span class="material-icons">gif_box</span>
+                        <span class="material-icons">poll</span>
+                        <span class="material-icons">sentiment_satisfied_alt</span>
+                        <span class="material-icons">pending_actions</span>
+                    </div>
+                    <span><button>Tweet</button></span>
+                </div>
+            </form>
+        </div>
+        <!-- TweetBox Finished -->
+
+        <!-- Post Begins -->
+        <div class="post">
+            <div class="post_img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq85nM_mqPIwNv98rKduTCxaGlckt6D2raXXXbpqcMlgbE27o7jhg8rHtLmobdpNaqcho&usqp=CAU" alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Vishal Kumar
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post_badge"> verified </span>@vishalwishkr
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Welcome to Manali , The Snow & Weather is Amazing!</p>
+                    </div>
+                </div>
+                <img src="https://imgcld.yatra.com/ytimages/image/upload/t_seo_Holidays_w_640_h_480_c_fill_g_auto_q_auto:good_f_jpg/v1557464430/Hotel/Manali/00004709/exterior_w17rMo.jpg" alt="">
+                <div class="yourReaction">
+                    <div class="comment"><i class="fa fa-comment"></i><p>12</p></div>
+                    <div class="retweet"><i class="fa fa-retweet"></i><p>12</p></div>
+                    <div class="like"><i class="fa fa-heart"></i><p>12</p></div>
+                    <div class="bookmark"><i class="fa fa-upload"></i></div>
+                </div>
+            </div>
+        </div>
+        <!-- Post Finished -->
+
+        <!-- Post Begins -->
+        <div class="post">
+            <div class="post_img">
+                <img src="https://toggl.com/blog/wp-content/uploads/2018/08/programmer-at-work-940x764.jpg" alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Vishal Kumar
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post_badge"> verified </span>@vishalwishkr
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Welcome to the world of front end DevelopeMent</p>
+                    </div>
+                </div>
+                <img src="https://toggl.com/blog/wp-content/uploads/2018/08/programmer-at-work-940x764.jpg" alt="">
+                <div class="yourReaction">
+                    <div class="comment"><i class="fa fa-comment"></i><p>12</p></div>
+                    <div class="retweet"><i class="fa fa-retweet"></i><p>12</p></div>
+                    <div class="like"><i class="fa fa-heart"></i><p>12</p></div>
+                    <div class="bookmark"><i class="fa fa-upload"></i></div>
+                </div>
+            </div>
+        </div>
+        <!-- Post Finished -->
+    </div>
+    <!-- HomePage Finished -->
+
+    <!-- News Section Begins -->
+
+    <div class="news">
+        <div class="news_input">
+            <span class="material-icons news_searchIcon"> search </span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+
+        <div class="trending">
+            <div class="header">
+                <p>What's happening</p>
+            </div>
+            <div class="trends">
+                <!-- Each Trend -->
+                <div class="trend">
+                    <div class="trendMsg">
+                        <div class="trendName">
+                            <p>IPL 2020.live</p>
+                        </div>
+                        <div class="subject">
+                            <p>IPL: Sunrisers Hyderabad beat Delhi Capitals by 88 runs</p>
+                        </div>
+                        <div class="trend-with">
+                            <p>trending with <a href="">#MIvsRCB</a></p>
+                        </div>
+                    </div>
+                    <div class="trendPicture">
+                        <img src="https://static.toiimg.com/photo/79558299.cms" alt="">
+                    </div>
+                </div>
+                <!-- End Of Each Trend -->
+                <!-- Each Trend -->
+                <div class="trend">
+                    <div class="trendMsg">
+                        <div class="trendName">
+                            <p>IPL 2020.live</p>
+                        </div>
+                        <div class="subject">
+                            <p>T20 Group2: India will definitely going to win says Harsha Bhogle.</p>
+                        </div>
+                        <div class="trend-with">
+                            <p>trending with <a href="">#INDvsPAK</a></p>
+                        </div>
+                    </div>
+                    <div class="trendPicture">
+                        <img src="https://cricfit.com/wp-content/uploads/2021/02/Babar-Kohli-1024x768.jpg" alt="">
+                    </div>
+                </div>
+                <!-- End Of Each Trend -->
+                <div class="showMore">
+                    <a href="">Show More</a>
+                </div>
+                <!-- End Of Each Trend -->
+            </div>
+        </div>
+
+         <!-- Follow -->
+         <div class="follow">
+            <div class="header">
+                <p>Who to Follow</p>
+            </div>
+            <div class="persons">
+                <!-- Each Person -->
+                <div class="person">
+                    <div class="personProfile">
+                        <img src="https://i0.wp.com/houstoniannews.com/wp-content/uploads/2021/05/young-female-student-graduating-from-university_43157-823.jpg?fit=626%2C416&ssl=1" alt="">
+                    </div>
+                    <div class="name">
+                        <div class="mainName">
+                            <h3>Explorer</h3>
+                        </div>
+                        <div class="userName">
+                            <p>@exolorerJuly</p>
+                        </div>
+                    </div>
+                    <div class="sendFollowRequest">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <!-- End Of Each Person -->
+                <!-- Each Person -->
+                <div class="person">
+                    <div class="personProfile">
+                        <img src="https://static.wixstatic.com/media/576f44_5e9ea38a9c60410c8a4938510ca4b7f1~mv2.png/v1/fill/w_211,h_211,al_c/576f44_5e9ea38a9c60410c8a4938510ca4b7f1~mv2.png" alt="">
+                    </div>
+                    <div class="name">
+                        <div class="mainName">
+                            <h3>NewTon</h3>
+                        </div>
+                        <div class="userName">
+                            <p>@newtonschool</p>
+                        </div>
+                    </div>
+                    <div class="sendFollowRequest">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <!-- End Of Each Person -->
+            </div>
+            <div class="showMore">
+                <a href="">Show More</a>
+            </div>
+        </div>
+        <!-- End Of Follow -->
+
+    </div>
+
+    <!-- News Section Finished -->
+
+
+</body>
+</html>
