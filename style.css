@@ -508,14 +508,14 @@ body{
     text-decoration: underline;
 }
 
-@media (max-width: 400px) { 
+@media (max-width: 800px) { 
     .news, .sidebar{
         display: none;
     }
     .home{
+        overflow-x: hidden;
         margin-left: 0%;
-        overflow-x: hidden;
-        min-width: fit-content;
-        overflow-x: hidden;
+        /* min-width: fit-content; */
+        
     }
   }
