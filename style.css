@@ -483,12 +483,14 @@ body{
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 376px) { 
+@media only screen and (max-width: 400px) { 
     .news, .sidebar{
         display: none;
     }
     .home{
+        width: 100%;
         margin-left: 0%;
-        object-fit: contain;
+        margin: 0 0 0 0px;
+
     }
   }
