@@ -280,7 +280,7 @@ body{
 
 .post_headerSpecial{
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
 }
 
@@ -487,7 +487,8 @@ body{
     .news, .sidebar{
         display: none;
     }
-    /* .home{
-        margin-left: -1%;
-    } */
+    .home{
+        margin-left: 0%;
+        object-fit: contain;
+    }
   }
