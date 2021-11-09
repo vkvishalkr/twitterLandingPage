@@ -49,14 +49,14 @@ body{
 }
 
 .sidebarOption:hover{
-    background-color: #e6ecf0;;
+    background-color: rgba(182, 170, 170, 0.301);
     border-radius: 30px;
-    color: #50b7f5;
+    color: #000;
     transition: 100ms ease-out;
 }
 
-.sidebarOption.active{
-    color: #50b7f5;
+.active h2{
+    font-family: 'Lato', sans-serif;
 }
 
 .sidebar_tweet{
@@ -78,7 +78,7 @@ body{
 
 .logOut div
 {
-    margin-top: 30px;
+    margin-top: 40px;
     float: left;
     padding: 10;
 }
@@ -94,7 +94,7 @@ body{
 .logOut .userName
 {
     margin-right: 7px;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 .logOut .userName i
 {
@@ -199,6 +199,7 @@ body{
     border-radius: 30px;
     border: none;
     background: #00a7ff;
+    opacity: 0.6;
     font-size: 16px;
     color: white;
     font-weight: 700;
@@ -313,12 +314,14 @@ body{
     align-items: center;
     background-color: #e6ecf0;
     padding: 10px;
+    /* position: fixed; */
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
 }
 
 .news_input input{
+    font-size: 15px;
     border: none;
     background-color: #e6ecf0;
     outline: none;
@@ -326,6 +329,7 @@ body{
 
 .news_searchIcon{
     color: gray;
+    margin-right: 6px;
 }
 .trending, .follow
 {
@@ -464,16 +468,23 @@ body{
 }
 .sendFollowRequest button
 {
+    background-color: #000;
     cursor: pointer;
     padding: 5px 20px;
     outline: none;
-    border: 2px solid #00a7ff;
-    color: #00a7ff;
+    border: 2px solid #000;
+    color: #fff;
     border-radius: 20px;
     font-size: 17px;
     text-transform: capitalize;
 }
 .sendFollowRequest button:hover
 {
-    background: #d8eed8;
+    opacity: 0.8;
 }
+
+@media only screen and (max-width: 600px) { 
+    .news, .sidebar{
+        display: none;
+    }
+  }
